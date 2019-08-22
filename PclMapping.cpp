@@ -93,9 +93,9 @@ int main( int argc, char** argv )
                 /*p.x = pointWorld[0];
                 p.y = pointWorld[1];
                 p.z = pointWorld[2];*/
-				p.x = pointWorld[0];
-				p.y = -pointWorld[2];
-				p.z = pointWorld[1];
+		p.x =  pointWorld[0];
+		p.y = -pointWorld[2];
+		p.z =  pointWorld[1];
                 p.b = color.data[ v*color.step+u*color.channels() ];
                 p.g = color.data[ v*color.step+u*color.channels()+1 ];
                 p.r = color.data[ v*color.step+u*color.channels()+2 ];
