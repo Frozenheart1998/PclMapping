@@ -13,3 +13,5 @@ This project reconstruct a map from KITTI dataset by using pcl.
 	e. gflags
 
 2. Camera Matrix refers to ORB_SLAM2( https://github.com/Frozenheart1998/ORB_SLAM2/blob/master/Examples/Stereo/KITTI00-02.yaml )
+
+3. Arguments in Terminal: ./PclMapping --start_frame=30 --frame_num=30
