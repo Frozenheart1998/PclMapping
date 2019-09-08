@@ -236,6 +236,7 @@ int WriteFilePFM(const Mat &im, string path, float scalef, bool verbose){
     return 0;
 }
 
+
 /*
 int main(int argc, char ** argv){
     Mat I, M;
